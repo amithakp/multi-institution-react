@@ -1,0 +1,43 @@
+.container {
+    /* padding: 40px 30px; */
+    transition: 1s;
+}
+
+#panel-background{
+    width: 500px;
+    height: 350px;
+    background: linear-gradient(45deg, #12283f, #000000)!important;
+}
+
+.panel-heading{
+    background-color: aliceblue;
+}
+
+.panel-heading> span{
+    color: #12283f !important;
+    font-weight: bold;
+    margin-left: 4px !important;
+    font-size: medium;
+}
+
+.parent-section{
+    text-align: center;
+}
+
+label{
+    color: aliceblue;
+}
+
+#dropdown{
+    width: 400px !important;
+    display: block;
+}
+#dd1{
+    height: 32px;
+    border-radius: 4px;
+}
+#password{
+    display: block;
+    float: left;
+    /* margin-left: 120px; */
+}

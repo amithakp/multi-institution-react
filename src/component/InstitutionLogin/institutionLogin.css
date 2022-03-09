@@ -1,0 +1,37 @@
+.container-fluid {
+    /* padding: 40px 30px; */
+    transition:1s;
+}
+
+.panel-success{
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(45deg, #12283f, #000000);
+}
+
+.panel-heading> span{
+    color: #12283f!important;
+    font-weight: bold;
+    font-size: medium;
+}
+.panel-heading{
+    background-color: #ffff !important;
+}
+
+.panel-body > h3{
+    color: red!important;
+}
+#login-span{
+    margin-left: 4px !important;
+}
+
+.parent-section{
+    text-align: center;
+    display: block;
+    color: #eef1f5;
+    padding-top:12px;
+}
+
+label{
+    color: aliceblue;
+}

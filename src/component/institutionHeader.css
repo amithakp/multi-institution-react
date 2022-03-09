@@ -1,0 +1,27 @@
+.logo{
+    color: #020213;
+    font-size: 20px;
+    margin-left: 8px;
+  }
+  .navbar-inverse{
+      float: left;
+      border: 1px solid #ccc;
+      background-color: #f1f1f1;
+      width: 11%;
+      height: 1308px;
+    }
+  
+    li{
+        display: block;
+    }
+    
+    .navbar-inverse .navbar-nav>li>a {
+      color: #020213;
+      font-weight: bold;
+      font-size: 18px;
+      font-family: ui-sans-serif;
+    }
+  
+    .navbar-inverse .navbar-nav>li>a:hover{
+        color: rgb(230, 14, 14);
+    }

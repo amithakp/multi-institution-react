@@ -1,0 +1,17 @@
+.name{
+margin-top:12px;
+}
+
+.secondButton {
+    padding-left: 10px;
+    display: inline-block;
+    margin-left: 21px;
+}
+
+.mainContainer {
+  display: inline!important;
+  padding-top: -6px;
+  float: left;
+  margin-top: -39px;
+  margin-left: 310px;
+}
