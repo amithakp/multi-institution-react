@@ -16,7 +16,7 @@ class InstitutionHeader extends Component {
             <>
                 <nav className="navbar navbar-inverse ">
                     <div className="logo">
-                        Employee
+                        EI 
                     </div>
                     <div className="navbar-header">
                         <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
