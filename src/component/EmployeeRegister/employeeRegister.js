@@ -1,6 +1,7 @@
 import React,{Component} from 'react';
 import './employeeRegister.css';
 
+
 const registerUrl ="http://localhost:2000/api/auth/register";
 class EmployeeRegister extends Component {
     constructor(props){
@@ -24,6 +25,8 @@ class EmployeeRegister extends Component {
             body:JSON.stringify(this.state)
         })
         .then( this.props.history.push('/employeeLogin'))
+        .then(this.props.eName = localStorage.setItem('name',this.state.name))
+
     }
 
     handleChange = (event) => {
