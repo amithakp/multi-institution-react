@@ -19,8 +19,8 @@ class Approve extends Component{
                 <InstitutionHeader/>
                 <h1>{this.state.name}</h1>
                 <div className="mainContainer">
-                <button>Accept</button>
-                <button className="secondButton" onClick={this.handleAccept}>Reject</button>
+                <button className="btn btn-success">Accept</button>
+                <button className="btn btn-danger secondButton" onClick={this.handleAccept}>Reject</button>
                 </div>
             </>
         )

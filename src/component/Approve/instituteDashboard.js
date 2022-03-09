@@ -9,7 +9,7 @@ class instituteDashboard extends Component{
                 <InstitutionHeader/>
                 <h1>amitha</h1>
                 <div className="mainContainer">
-                <button>Block</button>
+                <button className="btn btn-danger">Block</button>
                 
                 </div>
             </>
