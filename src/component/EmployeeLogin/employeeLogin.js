@@ -50,7 +50,7 @@ return(
         <div className="panel panel-success">
             <div className="panel-heading">
                 {/* <FontAwesomeIcon>faCoffee</FontAwesomeIcon> */}
-                <span id="login-span">Login</span>
+                <span id="login-span">Employee Login</span>
             </div>
             <div className="panel-body">
                 <h3>{this.state.message}</h3>

@@ -38,7 +38,7 @@ class EmployeeRegister extends Component {
                     <br/>
                     <div className="panel" id="panel-background">
                         <div className="panel-heading">
-                           <span>Register</span>
+                           <span>Employee Register</span>
                         </div>
                         <div className="panel-body">
                             <div className="row">
