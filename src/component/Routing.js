@@ -7,7 +7,7 @@ import EmployeeRegister from './EmployeeRegister/employeeRegister';
 import InstitutionLogin from './InstitutionLogin/institutionLogin';
 import InstitutionRegister from './InstitutionRegister/institutionRegister';
 import InstituteDashboard from './Approve/instituteDashboard';
-
+import EmployeeDashBoard from './EmployeeLogin/employeeDashBoard';
 const Routing = () => {
     return(
         <BrowserRouter>
@@ -19,6 +19,7 @@ const Routing = () => {
              <Route path="/employeeRegister" component={EmployeeRegister}/>
              <Route path="/institutionLogin" component={InstitutionLogin}/>
              <Route path="/institutionRegister" component={InstitutionRegister}/>
+             <Route path="/employeeDashBoard" component={EmployeeDashBoard}/>
         </Switch>   
         </BrowserRouter>
     )

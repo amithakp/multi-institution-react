@@ -1,8 +1,7 @@
 import React,{Component} from 'react';
 import './employeeRegister.css';
 
-const loginrUrl = "http://localhost:4000/api/auth/login";
-
+const registerUrl ="http://localhost:2000/api/auth/register";
 class EmployeeRegister extends Component {
     constructor(props){
         super(props)
@@ -14,9 +13,9 @@ class EmployeeRegister extends Component {
             password:''
         }
     }
-    
+
     handleSubmit = () => {
-        fetch(loginrUrl,{
+        fetch(registerUrl,{
             method:'POST',
             headers:{
                 'accept':'application/json',
@@ -24,7 +23,7 @@ class EmployeeRegister extends Component {
             },
             body:JSON.stringify(this.state)
         })
-        .then( this.props.history.push('/instituteDashboard'))
+        .then( this.props.history.push('/employeeLogin'))
     }
 
     handleChange = (event) => {
@@ -59,6 +58,13 @@ class EmployeeRegister extends Component {
                                         </div>
                                     </div>
                                     <div className="col-md-6">
+                                        <div className="form-group">
+                                            <label>Institution</label>
+                                            <input className="form-control" name="institution" 
+                                            value={this.state.institution} onChange ={this.handleChange}/>
+                                        </div>
+                                    </div>
+                                    {/* <div className="col-md-6">
                                     <label>Institution</label>
                                         <div id="dropdown">
                                             <select id="dd1" className="col-md-6">
@@ -67,7 +73,7 @@ class EmployeeRegister extends Component {
                                                 <option value="3">TECH</option>
                                             </select> 
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <div id="password" className="col-md-6">
                                         <div className="form-group">
                                             <label>Password</label>
