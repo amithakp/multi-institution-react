@@ -17,7 +17,7 @@ class Approve extends Component{
         return (
             <>
                 <InstitutionHeader/>
-                <h1>{localStorage.getItem("name")}</h1> {/* get signup employee name */}
+                <h1>{localStorage.getItem("name")}</h1> {/* get signup employee Request name */}
                 <div className="mainContainer">
                 <button className="btn btn-success">Accept</button>
                 <button className="btn btn-danger secondButton" onClick={this.handleAccept}>Reject</button>

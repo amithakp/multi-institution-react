@@ -14,7 +14,8 @@ class EmployeeRegister extends Component {
             password:''
         }
     }
-
+    
+    // Register Button
     handleSubmit = () => {
         fetch(registerUrl,{
             method:'POST',
@@ -29,6 +30,7 @@ class EmployeeRegister extends Component {
 
     }
 
+    //get the fields of form
     handleChange = (event) => {
         console.log(event)
         this.setState({[event.target.name]:event.target.value})
