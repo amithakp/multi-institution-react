@@ -33,7 +33,9 @@ class EmployeeLogin extends Component {
                     this.setState({message:data.token});
                 }else{
                     localStorage.setItem('ltk',data.token)
-                    this.props.history.push('/employeeDashBoard')
+                    
+                    .then(this.props.history.push('/employeeDashBoard'))
+                    .then(this.props.eLoggedName = localStorage.setItem('name',this.state.name))
                 }
             })
         }
